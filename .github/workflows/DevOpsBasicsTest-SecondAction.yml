@@ -21,6 +21,9 @@ jobs:
         echo "Hello Message 1"
         echo "Hello Message 2"
 
+    - name: list current folder
+      run: dir
+
   myDeploy:
     runs-on: windows-latest
     needs: [myTest]
