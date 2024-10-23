@@ -2,7 +2,7 @@ name: DevOpsBasicsTest-FirstActions
 on:
   push:
     branches: 
-      - master
+    - master
 
 jobs:
   myTest:
