@@ -42,8 +42,8 @@ jobs:
     steps:
     - name: Print env Vars
       run: |
-        echo "Var1 - ${{VAR1}}"
-        echo "Var1 - ${{VAR2}}"
+        echo "Var1 = ${{env.VAR1}}"
+        echo "Var1 = ${{env.VAR2}}"
         
     - name: Print Hello Message
       run: echo "Hello, World! from myTest job"
