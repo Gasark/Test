@@ -1,14 +1,13 @@
 name: DevOpsBasicsTest-FirstActions
 on:
-	push:
-		branches:
-			- master
-	 
-jobs:
-	myTest:
-		runs-on: windows-latest
+  push:
+    branches:
+      - master
 
-		steps:
-			- name: Print Hello Message
-	 			run: echo "Hello, World! from myTest job"
-			
+jobs:
+  myTest:
+    runs-on: windows-latest
+
+    steps:
+    - name: Print Hello Message
+      run: echo "Hello, World! from myTest job"
