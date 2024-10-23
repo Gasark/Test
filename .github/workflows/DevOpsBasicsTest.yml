@@ -5,9 +5,9 @@ on:
       - master
 
 jobs:
-   myTest:
-     runs-on: windows-latest
+  myTest:
+    runs-on: windows-latest
 
-      steps:
-      - name: Print Hello Message
-        run: echo "Hello, World! from myTest job"
+    steps:
+    - name: Print Hello Message
+      run: echo "Hello, World! from myTest job"
