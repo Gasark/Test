@@ -9,5 +9,5 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Print Hello Message
-      run: echo "Hello, World! from myTest job"
+      - name: Print Hello Message
+        run: echo "Hello, World! from myTest job"
